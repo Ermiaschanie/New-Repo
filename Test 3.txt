@@ -1,1 +1,16 @@
-Added new file
+create schema Studentsinfo;
+
+Use StudentsInfo;
+
+create table Students(
+StudentID int,
+StudentName Varchar(100),
+ParentName varchar(50),
+Addres varchar(20),
+Postalcode Int,
+City Varchar(20)
+);
+
+
+
+To use the privios column 
